@@ -5,7 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Post.create(title: 'Careers At A Glance - Talent Sourcing', content: 'In the spirit of strict anonymity, names and all identifying information have been removed from the below article. To learn more about Fintros - the leading anonymous opportunity platform for finance leaders - please visit www.fintros.com/faq.
+
+Post.create(title: 'Careers At A Glance - Talent Sourcing', 
+content: 'In the spirit of strict anonymity, names and all identifying information have been removed from the below article. To learn more about Fintros - the leading anonymous opportunity platform for finance leaders - please visit www.fintros.com/faq.
 
 Can you provide us with a brief overview of your work?
 
@@ -46,10 +48,13 @@ Do everything you can to standout
 Do quantify your experience. Show me in numbers what you have accomplished, and what you want to accomplish. Go beyond just listing your responsibilities and what you did in school.
 Do reach out to people, because most people are going to give you a chance.
 Do adapt your resume, your pitch, and find a way to get people to see beyond your resume. If you have to be in their face, do so in a polite way',
-   author: 'BY FINTROS — APRIL 2018')
+   author: 'BY FINTROS — APRIL 2018', 
+   short_text: 'Fintros sat down with a Toronto HR leader to discuss how to beat the ATS and land more interviews.',
+   image: 'https://blog-magazine-images.s3.amazonaws.com/How-to-Land-Interviews')
 
 
-Post.create(title: 'Careers at a Glance - Corporate Development', content: 'In the spirit of strict anonymity, names and all identifying information have been removed from the article below. To learn more about Fintros - the leading anonymous opportunity platform for finance leaders - please visit www.fintros.com/faq.
+Post.create(title: 'Careers at a Glance - Corporate Development', 
+content: 'In the spirit of strict anonymity, names and all identifying information have been removed from the article below. To learn more about Fintros - the leading anonymous opportunity platform for finance leaders - please visit www.fintros.com/faq.
 
 Fintros: Can you give us an introduction to what your role consists of?
 
@@ -81,10 +86,14 @@ Fintros: Advice for candidates?
 Anonymous VP: It depends on what path within finance that you want to take, but I think banking is a great training ground, as well as management consulting. I would encourage people to do those if they want a general business or finance career. You will work very hard (not sugar-coating that), but I believe that the fundamental and analytical skills that you learn in those jobs are second to none. If you want a career in investing I would recommend to people that you go do two years in private equity after two years of banking/consulting, as I think that meets the longer term career path in terms of opening as many doors to you. If you do not want to go the private route, I think that there are lots of different paths that people can take.
 
 To learn more about Fintros, please visit www.fintros.com/faq.' ,
- author: 'BY FINTROS — DECEMBER 2017')
+ author: 'BY FINTROS — DECEMBER 2017',
+ short_text: 'Interested in Corporate Development opportunities? Learn more about deal sourcing, deal structuring and M&amp;A.',
+ image: 'https://blog-magazine-images.s3.amazonaws.com/Corporate-Development.png'
+)
 
 
- Post.create(title: 'Lessons From Leaders - Chief Financial Officer', content: "In the spirit of strict anonymity, names and all identifying information have been removed from the below article. To learn more about Fintros - the leading anonymous opportunity platform for finance leaders - please visit www.fintros.com/faq.
+ Post.create(title: 'Lessons From Leaders - Chief Financial Officer', 
+ content: "In the spirit of strict anonymity, names and all identifying information have been removed from the below article. To learn more about Fintros - the leading anonymous opportunity platform for finance leaders - please visit www.fintros.com/faq.
 
  Fintros: As CFO at one of Canada’s largest NFP’s, can you describe your daily focus?
  
@@ -110,9 +119,10 @@ To learn more about Fintros, please visit www.fintros.com/faq.' ,
  Anonymous CFO: I think the one mistake most people make in their career, whether they are in accounting, higher-level finance, marketing, or whatever focus, is the common tendency to believe that operating within that function is the only way to contribute value to the firm. I’ll use accountants as an example because that’s where I grew up. There’s a way that accountants can interact with the business; they can sit back and do the numbers every month and send people reports, and basically have this passive role but do everything they're supposed to do based on the CICA handbook but not add any additional value to an organization.
  
  One of my most successful traits is that I got involved in non-finance tasks to really understand the organization. In my first life, I spent about a decade in retail, where believe it or not I told my accounting staff to go to one of our stores and just listen to customers. I told them to listen to what customers are asking and to find out more about the critical pieces that really drive the business. The reason I do this is because in my formative years I had a boss who, when I was moving up in the organization, told me the reason he promoted me was that he viewed me as being bilingual. What he meant by bilingual wasn’t my ability to speak both English and French, but that I was a very good accountant and that I really understood the retail day-to-day business and it's drivers. It takes very little effort and it can really change your career trajectory. I attribute much of my career success to the simple things - like going into our stores and talking to the retail staff to further my understanding of the business and to then take that knowledge and create processes that influence our employees at every level and generate better value for our customers. In short, if your readers are to remember anything from this piece, it is to reach out and find ways to help across the organization and build relationships with different departments - even when you are not explicitly told. Start today!",
-   author: 'BY FINTROS — NOVEMBER 2017')
+  author: 'BY FINTROS — NOVEMBER 2017',
+  short_text: "Culture, career and leadership advice by one of Canada's most recognized Chief Financial Officers.",
+  image: 'https://blog-magazine-images.s3.amazonaws.com/Tips-by-Canadian-Chief-Financial-Officer')
 
- 
    Post.create(title: 'Careers At A Glance - Debt Private Placements', content: 'Fintros: You worked in Debt Private Placements. Can you explain to our readers a bit more about your role and what it consists of?
    Anonymous Associate: Sure. Our department handles both origination and syndication. You can think of it as a hybrid role within banking. Origination is the task of structuring the deal, but before that can take place the first task concerns approaching the client and winning the business. Once the client has signed the engagement letter, the next step is structuring the legal documentation and the business features of the product. While this might appear redundant since we are selling the same debt product each time, each deal is structured differently by virtue of negative and positive covenants - to name one consideration - which are items that restrict the way the money is used. Additionally, it can be structured differently from a syndication perspective (who the deal can be sold to), and that is a matter of jurisdiction; taking into account where the money is held, and which legal entity is operating within these corporations. That is a brief description of the origination process.
    
@@ -151,7 +161,9 @@ To learn more about Fintros, please visit www.fintros.com/faq.' ,
    Fintros: Let’s close with a quick tip for IB analysts and our younger candidates who are looking to work in IB.
    
    Anonymous Associate: My greatest piece of advice would be to form a strong habit of being technically sound. Beyond that, in your early days in IB you will be given enough slack to learn the tech, lingo, and general processes, but you are not going to be able survive in this industry if you lack time management skills.',
-    author: 'BY FINTROS — NOVEMBER 2017')
+    author: 'BY FINTROS — NOVEMBER 2017',
+    short_text: 'Interested in Debt Private Placements? Learn about deal origination, syndication and the lifecycle of a deal.',
+    image: 'https://blog-magazine-images.s3.amazonaws.com/Debt-Private-Placements')
 
    
    
