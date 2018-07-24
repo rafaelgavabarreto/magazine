@@ -1,0 +1,15 @@
+<%= form_for(@post) do |f| %>
+  
+  <%= f.label :image %><br>
+  <%= f.text_field :image, placeholder: 'Address to image here' %><br>
+  <%= f.label :title %><br>
+  <%= f.text_field :title, placeholder: 'Post title here' %><br>
+  <%= f.label :author %><br>
+  <%= f.text_area :author, placeholder: 'Author name here' %><br>
+  <%= f.label :short_text %><br>
+  <%= f.text_area :short_text, placeholder: 'Short text here' %><br>
+  <%= f.label :content %><br>
+  <%= f.text_area :content, placeholder: 'Post text here' %><br>
+
+  <%= f.submit %>
+<% end %>
