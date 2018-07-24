@@ -1,8 +1,11 @@
 <% @posts.each do |post| %>
-  <%= link_to post do %>
-    <%= image_tag post.image %>
-  <% end %>
-
-  <h1><%= link_to post.title, post %></h1>
-  <h2><%= post.short_text %></h2>
+  <div class="container">
+    <%= link_to post do %>
+      <% if post.image %>
+        <%= image_tag post.image, class: 'img-responsive' %>
+      <% end %>
+    <% end %>
+    <h1><%= link_to post.title, post %></h1>
+    <h2><%= post.short_text %></h2>
+  </div>
 <% end %>
