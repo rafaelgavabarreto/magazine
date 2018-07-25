@@ -1,8 +1,9 @@
 <article class=”post”> 
-  <%= image_tag @post.image.to_s, alt: "Image", class: 'img-responsive' %>
+  <%= image_tag @post.image.to_s, class: 'img-responsive' %>
   <h1><%= @post.title %></h1>
   <h2><%= @post.author %></h2>
-  <p><%= @post.content %></p>
+  <p><%= simple_format @post.content %></p>
+  <br/><br/>
   <%= link_to 'Edit', edit_post_path(@post) %>
   <%= link_to 'Delete', @post, method: :delete, data: { confirm: 'Do you wanna delete this post?' } %>
   <%= link_to 'Main Page', root_path %>

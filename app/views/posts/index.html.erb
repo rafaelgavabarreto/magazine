@@ -2,7 +2,7 @@
   <div class="container">
     <%= link_to post do %>
       <% if post.image %>
-        <%= image_tag post.image.to_s, alt: 'Image', class: 'img-responsive' %>
+        <%= image_tag post.image.to_s, class: 'img-responsive' %>
       <% end %>
     <% end %>
     <h1><%= link_to post.title, post %></h1>
