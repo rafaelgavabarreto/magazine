@@ -359,10 +359,9 @@ body {
 }
 
 .post__text p {
-  font-family: 'Akkurat-Light-Italic', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Akkurat', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   box-sizing: border-box;
   font-size: 19.2px;
-  font-style: italic;
   font-weight: 200;
   height: auto;
   letter-spacing: -0.48px;
@@ -373,6 +372,11 @@ body {
   text-size-adjust: 100%;
   width: auto;
   -webkit-font-smoothing: antialiased;
+}
+
+.post__text p em {
+  font-family: 'Akkurat-Light-Italic', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-style: italic;
 }
 
 .post__button {
