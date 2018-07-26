@@ -1,11 +1,29 @@
-<% @posts.each do |post| %>
-  <div class="container">
-    <%= link_to post do %>
-      <% if post.image %>
-        <%= image_tag post.image.to_s, class: 'img-responsive' %>
-      <% end %>
-    <% end %>
-    <h1><%= link_to post.title, post %></h1>
-    <h2><%= post.short_text %></h2>
+<div class="blog__header">
+  <h6 class="blog__brand">BRAND</h6>
+  <h1>Magazine</h1>
+  <h6 class="blog__subheader">Strategies And Stories To Help You In Your Job Search</h6>
+</div>
+
+<div class="columns">
+
+
+  <% @posts.each do |post| %>
+    <div class="grid-item" %>
+      <div class="blog__card">
+        <div class="card-block">
+        <%= link_to post do %>
+          <% if post.image %>
+            <%= image_tag post.image.to_s, class: 'img-responsive' %>
+          <% end %>
+        <% end %>
+        <div class="blog__card__text">
+        <h1 class="blog__card__title"><%= link_to post.title, post %></h1>
+        <%= post.short_text %>
+        </div>
+        </div>
+      </div>
+    </div>
+
+  <% end %>
+
   </div>
-<% end %>
