@@ -1,25 +1,31 @@
-# README
+# Magazine
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A mini blog in rails.
 
-Things you may want to cover:
 
-* Ruby version
+## Setup
 
-* System dependencies
+1. Fork & Clone
+2. Run `bundle install` to install dependencies
+5. Run `bin/rake db:reset` to create, load and seed db
+9. Open http://localhost:3000/
 
-* Configuration
 
-* Database creation
+## Heroku
 
-* Database initialization
+Try on https://sheltered-mountain-27431.herokuapp.com/
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+##Screens
 
-* Deployment instructions
 
-* ...
-# magazine
+Main Page
+!["Main Page"]()
+
+
+Inside Post Top
+!["Inside Post Top"]()
+
+
+Inside Post Edit
+!["Inside Post Edit"]()
