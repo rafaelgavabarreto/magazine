@@ -69,7 +69,7 @@ body {
   background-color: white;
   height: 55px;
   width: 100%;
-  padding: 0 35px;
+  padding-right: 35px;
   margin: 0;
   -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.1);
@@ -168,6 +168,11 @@ body {
   overflow: auto;
 }
 
+.container-fluid {
+  padding: 0px;
+}
+
+
 .blog__card {
   margin-bottom: 25px;
   display: flex;
@@ -194,7 +199,8 @@ body {
   margin: 0 -10px;
 }
 
-.new_post, .edit_post {
+.new_post,
+.edit_post {
   width: 100%;
   margin-top: 50px;
   margin-left: 112px;
@@ -382,4 +388,14 @@ body {
 .post__button {
   padding-top: 10px;
   padding-bottom: 20px;
+}
+
+.navbar__logo {
+  background-position-x: 50%;
+  background-position-y: 50%;
+  height: 100%;
+  vertical-align: middle;
+  margin-left: 8px;
+  margin-top: 8px;
+  width: 168px;
 }
