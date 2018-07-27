@@ -16,7 +16,7 @@ A mini blog in rails.
 Try on https://sheltered-mountain-27431.herokuapp.com/
 
 
-##Screens
+## Screens
 
 Main Page
 !["Main Page"](https://github.com/rafaelgavabarreto/magazine/blob/master/public/screens/main__screen.png)
