@@ -18,14 +18,13 @@ Try on https://sheltered-mountain-27431.herokuapp.com/
 
 ##Screens
 
-
 Main Page
-!["Main Page"]()
+!["Main Page"](https://github.com/rafaelgavabarreto/magazine/blob/master/public/screens/main__screen.png)
 
 
 Inside Post Top
-!["Inside Post Top"]()
+!["Inside Post Top"](https://github.com/rafaelgavabarreto/magazine/blob/master/public/screens/inside__post__top.png)
 
 
 Inside Post Edit
-!["Inside Post Edit"]()
+!["Inside Post Edit"](https://github.com/rafaelgavabarreto/magazine/blob/master/public/screens/inside__post.png)
